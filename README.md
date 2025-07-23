@@ -13,7 +13,7 @@ The following is a summary of the steps followed to validate the proposed archit
 ## 1. Requirements
 To run the code, you will need to install the following dependencies beforehand:
 
-* Ultralytics >=8.3.153
+* Ultralytics =8.3.153
 * Python
 * Pytorch 
 * Clearml 1.18.0 
@@ -67,9 +67,9 @@ Datasense@CRAS/ │
 
 ## 4. Add modified architecture and modules to the respective files.
 
-Step 1: Add the file "/YoloModified/maritime.yaml" to this path "/ultralytics/cfg/models/v8/".  
+Step 1: Add the file `/YoloModified/maritime.yaml` to this path `/ultralytics/cfg/models/v8/`. 
 
-Step 2: Add this file "/YoloModified/enhanced.py" to this path: "/ultralytics/nn/modules/".  
+Step 2: Add this file `/YoloModified/enhanced.py` to this path: `/ultralytics/nn/modules/`.  
 
 Step 3: Add the modified architecture modules to the "__init__.py" file at the very end, path=/ultralytics/nn/modules/__init__.py
 
@@ -102,9 +102,9 @@ except ImportError:
     from ultralytics.nn.modules.head import Detect as DetectEnhanced
     from ultralytics.nn.modules.conv import Conv as ECAAttention
 ```
-Then, in the tasks.py file you have to add other specific functions for the modules based on our proposal that are detailed in the file: /YoloModified/Modificaciones_tasks.py
+Then, in the tasks.py file you have to add other specific functions for the modules based on our proposal that are detailed in the file: `/YoloModified/Modificaciones_tasks.py`
 
-Step 4: Before running the training using the script "Script_train/verify_modules.py" we can check if the modules are correctly imported and working.  
+Step 4: Before running the training using the script `/Script_train/verify_modules.py` we can check if the modules are correctly imported and working.  
 
 ## 5. Training Yolov8-Modified with custom dataset
 To run or launch the training you will need:
