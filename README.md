@@ -104,7 +104,7 @@ except ImportError:
 ```
 Then, in the tasks.py file you have to add other specific functions for the modules based on our proposal that are detailed in the file: `YoloModified/Modificaciones_tasks.py`
 
-Step 4: Before running the training using the script `Script_train/verify_modules.py` we can check if the modules are correctly imported and working.  
+Step 5: Before running the training using the script `Script_train/verify_modules.py` we can check if the modules are correctly imported and working.  
 
 ## 5. Training Yolov8-Modified with custom dataset
 To run or launch the training you will need:
@@ -129,7 +129,7 @@ $ python /Script_train/Yolov8_maritime.py
 
 ## 7. Publications
 
-Title: "Enhanced Object Detection for Maritime Vision via Modified YOLOv8 Architecture and SAHI-Based Inference".
+Title: "Enhanced Object Detection for Maritime Vision via Modified YOLOv8 Architecture and SAHI-Based Inference".  
 Journal: 
 
 ## 8. Acknowledgements
