@@ -67,11 +67,11 @@ Datasense@CRAS/ │
 
 ## 4. Add modified architecture and modules to the respective files.
 
-Step 1: Add the file `YoloModified/maritime.yaml` to this path "/ultralytics/cfg/models/v8/". 
+Step 1: Add the file `YoloModified/maritime.yaml` to this path `/ultralytics/cfg/models/v8/`. 
 
-Step 2: Add this file `YoloModified/enhanced.py` to this path: "/ultralytics/nn/modules/".  
+Step 2: Add this file `YoloModified/enhanced.py` to this path: `/ultralytics/nn/modules/`.  
 
-Step 3: Add the modified architecture modules to the "__init__.py" file at the very end, path=/ultralytics/nn/modules/__init__.py
+Step 3: Add the modified architecture modules to the `__init__.py` file at the very end, path=`/ultralytics/nn/modules/__init__.py`
 
 ```python
 # Enhanced modules
@@ -82,7 +82,7 @@ except ImportError:
     ENHANCED_MODULES_AVAILABLE = False
     print("Warning: Enhanced modules not available")
 ```
-Step 4: Modify the tasks.py file at path=/ultralytics/nn/tasks.py to import the modules added to the modified architecture. These imports are added after the existing imports in the tasks.py file.  
+Step 4: Modify the tasks.py file at path=`/ultralytics/nn/tasks.py` to import the modules added to the modified architecture. These imports are added after the existing imports in the tasks.py file.  
 
 ```python
 # Enhanced modules import
