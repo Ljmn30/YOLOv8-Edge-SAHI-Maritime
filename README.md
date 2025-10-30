@@ -102,7 +102,7 @@ except ImportError:
     from ultralytics.nn.modules.head import Detect as DetectEnhanced
     from ultralytics.nn.modules.conv import Conv as ECAAttention
 ```
-Then, in the tasks.py file you have to add other specific functions for the modules based on our proposal that are detailed in the file: `YoloModified/Modificaciones_tasks.py`
+Then, in the tasks.py file you have to add other specific functions for the modules based on our proposal that are detailed in the file: `YoloModified/tasks_modifications.py`
 
 Step 5: Before running the training using the script `Script_train/verify_modules.py` we can check if the modules are correctly imported and working.  
 
@@ -127,10 +127,22 @@ $ python /Script_train/Yolov8_maritime.py
 <img src="image_tables/AGX_modes.png" alt="bench 1" width="100%"> 
 
 
-## 7. Publications
+## 7. Ablation Study
+### 7.1 Impact of Individual Modules
+<img src="image_tables/ablation_result.png" alt="bench 1" width="100%"> 
+
+## 8. Comparison with State-of-the-Art Detectors
+<img src="image_tables/sota_detectors.png" alt="bench 1" width="100%"> 
+
+## 9. Cross-domain Generalization
+<img src="image_tables/genera_dataset.png" alt="bench 1" width="100%"> 
+
+
+
+## 10. Publications
 
 Title: "Enhanced Object Detection in Maritime Vision: Modified YOLOv8 Architecture and SAHI-Based Inference".    
-Journal: Journal of Real-Time Image Processing (Under Review).  
+Journal:  
 
-## 8. Acknowledgements
+## Acknowledgements
 This paper has been partially funded by the EU (FEDER), the Spanish MINECO under grants PID2021-126576NB-I00 and TED2021-130123B-I00 funded by MCIN/AEI/10.13039/501100011033 and by European Union "ERDF A way of making Europe" and the NextGenerationEU/PRT. J.L.M. thanks the National Secretariat of Science, Technology and Innovation (SENACYT) of Panama for financial support during the completion of his PhD.
