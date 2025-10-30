@@ -135,6 +135,11 @@ $ python /Script_train/Yolov8_maritime.py
 <img src="image_tables/sota_detectors.png" alt="bench 1" width="100%"> 
 
 ## 9. Cross-domain Generalization
+To evaluate the robustness of the architecture proposed in this study in different fields, we conducted a cross-domain generalization study. For this, we used the following datasets:
+1. [Datasense@CRAS](https://rdm.inesctec.pt/lv/dataset/nis-2022-001).
+2. [MODS](https://ieeexplore.ieee.org/document/9605202).
+3. [Animal Objetc Detection: AOD](https://islgl.github.io/AOD-dataset/).  
+
 <img src="image_tables/genera_dataset.png" alt="bench 1" width="100%"> 
 
 
