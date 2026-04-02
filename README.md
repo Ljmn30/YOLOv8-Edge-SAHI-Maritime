@@ -146,7 +146,7 @@ To evaluate the robustness of the architecture proposed in this study in differe
 
 ## 10. Publications
 
-Title: "Enhanced Object Detection in Maritime Vision: Modified YOLOv8 Architecture and SAHI-Based Inference".    
+Title: "Integrating Dynamic Convolution and Channel Attention into YOLOv8 for Enhanced Maritime Vision".    
 Journal:  
 
 ## Acknowledgements
