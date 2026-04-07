@@ -120,7 +120,9 @@ $ python /Script_train/Yolov8_maritime.py
   
 ### 6.2 YOLOv8-Modified + SAHI: Comparison of object detection with YOLOv8 as standard and Yolov8 with SAHI
 
-<img src="image_tables/standars_sahi.png" alt="bench 1" width="100%"> 
+<img src="image_tables/comparison1.png" alt="bench 1" width="100%"> 
+
+<img src="image_tables/comparison2.png" alt="bench 1" width="100%"> 
 
 ### 6.3 Comparison of the performance of YOLO models on the AGX Orin under different power settings and precision arithmetic
 
