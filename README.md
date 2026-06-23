@@ -149,7 +149,8 @@ To evaluate the robustness of the architecture proposed in this study in differe
 ## 10. Publications
 
 Title: "Integrating Dynamic Convolution and Channel Attention into YOLOv8 for Enhanced Maritime Vision".    
-Journal:  
+Journal: Digital Signal Processing (Published).  
+DOI: https://doi.org/10.1016/j.dsp.2026.106258
 
 ## Acknowledgements
 This paper has been partially funded by the EU (FEDER), the Spanish MINECO under grants PID2021-126576NB-I00 and TED2021-130123B-I00 funded by MCIN/AEI/10.13039/501100011033 and by European Union "ERDF A way of making Europe" and the NextGenerationEU/PRT. J.L.M. thanks the National Secretariat of Science, Technology and Innovation (SENACYT) of Panama for financial support during the completion of his PhD.
